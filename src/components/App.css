@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900');
+
+ * {
+   font-family: 'Playfair Display',
+     serif;
+ }
+
+ body {
+   background-color: #282B3C;
+ }
+
+ .App {
+   text-align: center;
+   color: #4292CF;
+   text-transform: uppercase;
+ }
+
+ h1 {
+   margin: 5px;
+ }
+
+ .buttons {
+   display: flex;
+   justify-content: center;
+ }
+
+ button {
+   padding: 8px;
+   margin: 10px;
+   width: 80px;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+   background-color: #4292CD;
+   color: #282B3C;
+   font-weight: bold;
+   font-size: 11px;
+   cursor: pointer;
+   transition: .3s;
+ }
+
+ button:hover {
+   opacity: 0.6
+ }
+
+ select {
+   margin: 10px;
+   width: 80px;
+   outline: none;
+   border: none;
+   background-color: #4292CD;
+   color: #282B3C;
+   font-weight: bold;
+   font-size: 11px;
+   cursor: pointer;
+   height: 31px;
+ }

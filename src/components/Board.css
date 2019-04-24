@@ -1,0 +1,40 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 533px;
+    border: 7px solid;
+    margin: 20px auto;
+    position: relative;
+}
+
+.board .line-one {
+    height: 100%;
+    width: 6px;
+    background-color: #4292CF;
+    position: absolute;
+    left: 32.6%;
+}
+
+.board .line-two {
+    height: 100%;
+    width: 6px;
+    background-color: #4292CF;
+    position: absolute;
+    left: 66%;
+}
+
+.board .line-three {
+    height: 6px;
+    width: 100%;
+    background-color: #4292CF;
+    position: absolute;
+    top: 33%;
+}
+
+.board .line-four {
+    height: 6px;
+    width: 100%;
+    background-color: #4292CF;
+    position: absolute;
+    top: 66.1%;
+}
